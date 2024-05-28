@@ -1,15 +1,15 @@
 <?php
 
-$path ="Data.json";
-    $jsonString = file_get_contents($path);
-   $data = json_decode($jsonString, true);
-   $reportEntries = $data['Report_Entry'];
+$path ="v2/api/Data.json";
+$jsonString = file_get_contents($path);
+$data = json_decode($jsonString, true);
+$reportEntries = $data['Report_Entry'];
 
 // Enable Error Reporting.
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-session_start();
+//session_start();
 
 // Constants for API Interaction.
 
