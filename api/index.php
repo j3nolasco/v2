@@ -1,6 +1,6 @@
 <?php
 
-$path ="v2\api\Data.json";
+$path ="__DIR__.'/Data.json";
 $jsonString = file_get_contents($path);
 $data = json_decode($jsonString, true);
 $reportEntries = $data['Report_Entry'];
