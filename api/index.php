@@ -12,12 +12,7 @@ ini_set('display_errors', 1);
 session_start();
 
 // Constants for API Interaction.
-const BASE_URL = 'https://wd2-impl-services1.workday.com/ccx/service/customreport2/nwacc_preview/j3nolasco/STU.INT113_NWACC.EDU_Class_Schedule_Outbound_CR_-__j3nolasco?format=json';
-const TOKEN_ENDPOINT = 'https://wd2-impl-services1.workday.com/ccx/oauth2/nwacc_preview/token';
-const GRANT_TYPE = 'refresh_token';
-const REFRESH_TOKEN = 'd5yeiokbrphdwljorxq9ack2kqr6m8jimissk2gmin0a4h7bmoukk6so4m0exnv2txvr2f8s406ofvgt2wkrurlvpxol0g08dh7';
-const CLIENT_ID = 'OTM3ZDk3OGMtODdkZS00ZDYyLWJhODItNzcwNGI1MjZiMjE2';
-const CLIENT_SECRET = 'duh3di0g9arsk0acg6nhxdfj4mhjuq3u8vwchqrv4koc0rqazgozm6421axl1wrbif20dfchgdhpvw0i5qtg71yz4xc8o9xnewj';
+
 const ITEMS_PER_PAGE = 25;
 
 // function getToken()
