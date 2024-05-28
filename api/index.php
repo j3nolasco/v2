@@ -1,7 +1,7 @@
 <?php
 
-$path =__DIR__ . '/Data.json';
-$jsonString = file_get_contents($path);
+//$path =__DIR__ . '/Data.json';
+$jsonString = file_get_contents('./Data.json', FILE_USE_INCLUDE_PATH);
 $data = json_decode($jsonString, true);
 $reportEntries = $data['Report_Entry'];
 
