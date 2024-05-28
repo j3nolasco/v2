@@ -75,7 +75,7 @@ const ITEMS_PER_PAGE = 25;
 //     $reportEntries = $data['Report_Entry'] ?? [];
 // } catch (Exception $e) {
 //     die('Error: ' . $e->getMessage());
-// }
+/// }
 
 $page = isset($_GET['page']) ? intval($_GET['page']) : 1;
 $totalItems = count($reportEntries);
